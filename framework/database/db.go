@@ -2,6 +2,8 @@ package database
 
 import (
 	"github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm/dialects/sqlite"
+	_ "github.com/lib/pq"
 	"github.com/m3k3r1/video-encoder/domain"
 	"log"
 )
